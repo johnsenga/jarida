@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="app_name">Jarida Kiosk</string>
+    <string name="action_settings">Settings</string>
+    <string name="activity_scrollview">ScrollView</string>
+    <string name="activity_listview">ListView</string>
+    <string name="activity_gridview">GridView</string>
+    <string name="activity_webview">WebView</string>
+    <string name="activity_fragment_tabs">Fragments + Tabs</string>
+    <string name="activity_fragment_tabs_vp">Fragments + Tabs + ViewPager</string>
+    <string name="pref_title_stick_container">Stick layer to</string>
+    <string name="pref_title_show_shadow">Show shadow</string>
+    <string name="pref_title_show_offset">Closed offset</string>
+    <string name="open_button_container">Open</string>
+    <string name="close_button_container">Close</string>
+	<string name="title_activity_main">PayPal Access</string>
+    <string name="title_activity_login">Login</string>
+    <string name="btn_login">Login with PayPal</string>
+    <string name="progress_loading_title">Loading&#8320;</string>
+    <string name="progress_loading_msg">Login is possible in a few seconds</string>
+    <string name="toast_login_ok">Logged in</string>
+    <string name="toast_login_failed">Login failed</string>
+    <string name="login_description">This enables the user to use his PayPal credentials to login. Thus he doesn\'t have to create yet another account and remember yet another password.</string>
+	<string name="login_oauth">OAuth 2.0</string>
+	<string name="login_openid">OpenID</string>
+    
+    <string name="swipe_label">Swipe!</string>
+    <string name="swipe_left_label">Swipe left!</string>
+    <string name="swipe_right_label">Swipe right!</string>
+    <string name="swipe_up_label">Swipe up!</string>
+    <string name="swipe_down_label">Swipe down!</string>
+
+    <string name="label_right">Right</string>
+    <string name="label_left">Left</string>
+    <string name="label_middle">Middle</string>
+    <string name="label_top">Top</string>
+    <string name="label_bottom">Bottom</string>
+
+    <string name="not_applicable">n/a</string>
+    
+    <string-array name="pref_list_titles">
+        <item>@string/label_right</item>
+        <item>@string/label_middle</item>
+        <item>@string/label_left</item>
+        <item>@string/label_top</item>
+        <item>@string/label_bottom</item>
+    </string-array>
+    <string-array name="pref_list_values">
+        <item>right</item>
+        <item>middle</item>
+        <item>left</item>
+        <item>top</item>
+        <item>bottom</item>
+    </string-array>
+
+    <string name="pref_go">Go!</string>
+	
+    <string name="no_media_warning">Storage Media not present</string>
+    <string name="no_media_hint">Sharing the storage media with a PC can make it inaccessible</string>
+    <string name="open_failed">Unable to open document</string>
+    <string name="cancel">Cancel</string>
+    <string name="search_backwards">Search backwards</string>
+    <string name="search_forwards">Search forwards</string>
+    <string name="search_document">Search document</string>
+    <string name="picker_title">Jarida Kiosk</string>
+    <string name="outline_title">Table of Contents</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="text_not_found">Text not found</string>
+    <string name="searching_">Searching...</string>
+    <string name="link_control">Link highlighting and enabling</string>
+    <string name="no_further_occurences_found">No further occurences found</string>
+    <string name="gen_pdf">Generate pdf</string>
+    <string name="view_pdf">View pdf</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="progress_title">Generateing pdf...</string>
+    
+    <string name="myshelf">My Shelf</string>
+    <string name="favourites">Favourites</string>
+    <string name="subscriptions">Subscriptions</string>
+    <string name="feedback">Feedback</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+	
+	<string name="login">Login</string>
+	<string name="email">Email:</string>
+	<string name="password">Password:</string>
+	<string name="signup">Sign up</string>
+	<string name="donthaveacc">Don\'t have an account yet? </string>
+	<string name="forgotpwd">Forgot Password</string>
+	<string name="firstname">First Name</string>
+	<string name="othernames">Other Names</string>
+	<string name="cnfpassword">Confirm Password</string>
+	<string name="iagree">I agree to</string>
+	<string name="termsofuse">terms ofuse</string>
+	<string name="lastname">Last Name</string>
+	
+	
+
+    <string name="checkout">Checkout</string>
+    <string name="save">Save</string>
+    <string name="reset">Reset</string>
+    <string name="show">Show</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="exit">Exit</string>
+    <string name="important">Important</string>
+    <string name="register">Register</string>
+    <string name="list">List</string>
+    <string name="clearList">Clear List</string>
+    <string name="clearEntries">Clear Entries</string>
+    <string name="clearEntriesSuccess">Clear Entries Success</string>
+    <string name="description">Description</string>
+    <string name="confirmDelete">Confirm Delete?</string>
+    <string name="deleteSuccess">Delete successful</string>
+    <string name="createSuccess">Create Success</string>
+    <string name="notificationImportantEntryCount">notificationImportantEntryCount</string>
+    <string name="noImage">No Image</string>
+    <string name="empty"></string>
+   
+    
+
+    <string name="new_york_city">New York City</string>
+    <string name="activity_title_scrollview">ScrollView sample</string>
+    <string name="activity_title_listview">ListView sample</string>
+    <string name="activity_title_light_bg">Light background sample</string>
+    <string name="activity_title_light_ab">Light action bar sample</string>
+    <string name="activity_title_fragment">Fragment sample</string>
+    <string name="activity_title_no_parallax">No parallax sample</string>
+    <string name="loren_ipsum"> #DRUMFeb2014 features Nini Wacera. Where did she go? She talks about her miscarriage, sexuality, joining the Church of Scientology and everything in between.
+How does a PM celebrate his birthday? Find out how, and meet Jakom\'s family.
+Jose Chameleone is the most controversial celebrity in East Africa. What makes him tick, and how much of what has been said about him is true including those murder charges?
+Kato Change is a rising star, and he is only going to get bigger, as is Lwanda Jawar, the very definition of sexy.
+Are you a foodie? Looking for an aphrodisiac to spice things up? Chef Kiran Jethwa knows exactly what will hit that spot.
+This, and so much more than you can imagine all in the #DRUMFeb2014 issue. We promise you will love it.</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">close_drawer</string>
+    <string name="activity_title_header_overlay">Header Overlay Example</string>
+    <string name="choose_city">Choose a city</string>
+    <string name="activity_title_webview">WebView sample</string>
+    
+    <string-array name="drawer_items">
+        <item>New York</item>
+        <item>Tokyo</item>
+        <item>London</item>
+    </string-array>
+    <array name="city_images">
+        <item>@drawable/ny</item>
+        <item>@drawable/tokyo</item>
+        <item>@drawable/london</item>
+    </array>
+    
+    <string-array name="quantity">
+        <item></item>
+
+        <item>Grams</item>
+        <item>Kilograms</item>
+        <item>Liter</item>
+        <item>Milliliter</item>
+        <item>Pack</item>
+    </string-array>
+        <string name="noofitems">No of Items:</string>
+        <string name="ordertotal">Order Total:</string>
+	
+	
+	 <string name="custom_sample">Custom Sample</string>
+    <string name="what_else">What else?</string>
+    <string name="todo">TODO</string>
+	
+    
+    <string name="title">Title</string>
+    <string name="desc">Description</string>
+	<string name="overflow">Menu Overflow</string>
+	<string name="color_stripe">Color Stripe</string>
+	
+	
+	
+	
+	
+	
+	
+    
+</resources>

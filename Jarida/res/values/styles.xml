@@ -1,0 +1,114 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+    <style name="AppTheme" parent="AppBaseTheme"> </style>
+
+     <style name="Theme.Jaridatheme" parent="@style/Theme.Sherlock.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_jaridatheme</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Jaridatheme</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Jaridatheme</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Jaridatheme</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Jaridatheme</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Jaridatheme</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_jaridatheme</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_jaridatheme</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Jaridatheme</item>
+
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Jaridatheme.Widget</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.Jaridatheme" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_jaridatheme</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_jaridatheme</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_jaridatheme</item>
+        <item name="progressBarStyle">@style/ProgressBar.Jaridatheme</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Jaridatheme" parent="@style/Widget.Sherlock.ActionBar">
+        <item name="background">@drawable/ab_transparent_jaridatheme</item>
+        <item name="progressBarStyle">@style/ProgressBar.Jaridatheme</item>
+    </style>
+
+    <style name="PopupMenu.Jaridatheme" parent="@style/Widget.Sherlock.ListPopupWindow">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_jaridatheme</item>	
+    </style>
+
+    <style name="DropDownListView.Jaridatheme" parent="@style/Widget.Sherlock.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_jaridatheme</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Jaridatheme" parent="@style/Widget.Sherlock.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_jaridatheme</item>
+    </style>
+
+    <style name="DropDownNav.Jaridatheme" parent="@style/Widget.Sherlock.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_jaridatheme</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_jaridatheme</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_jaridatheme</item>
+    </style>
+    
+    <style name="ProgressBar.Jaridatheme" parent="@style/Widget.Sherlock.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_jaridatheme</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Jaridatheme" parent="@style/Widget.Sherlock.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_jaridatheme</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Jaridatheme.Widget" parent="@style/Theme.Sherlock">
+        <item name="popupMenuStyle">@style/PopupMenu.Jaridatheme</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Jaridatheme</item>
+    </style>
+    
+    
+    <style name="Widget.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid.Inverse">
+    </style>
+
+<style name="Widget.Light" />
+
+    <style name="Widget.Light.ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar.Solid">
+    </style>
+
+    <style name="Widget.ActionBar.Transparent">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="background">@android:color/transparent</item>
+    </style>
+
+    
+    
+    <!-- Initial Cards Ui Styles -->
+    <style name="card_inner_large" parent="@style/card_inner">
+        <item name="android:paddingLeft">3dp</item>
+    </style>
+
+    <style name="card_thumbnail_large" parent="@style/card_thumbnail">
+        <item name="android:layout_width">@dimen/card_thumbnail_large</item>
+        <item name="android:layout_height">@dimen/card_thumbnail_large</item>
+    </style>
+
+    <style name="card_title_large" parent="@style/card_title">
+        <item name="android:textSize">@dimen/card_title_large</item>
+    </style>
+
+    <style name="card_content_large" parent="@style/card_content">
+        <item name="android:textSize">@dimen/card_content_large</item>
+    </style>
+
+    <style name="card_popup_anchor_star" parent="@style/card_popup_anchor">
+        <item name="android:layout_width">28dp</item>
+        <item name="android:layout_height">28dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:src">@drawable/custom_card_star</item>
+    </style>
+    
+    
+    
+    
+    
+    
+    
+
+</resources>

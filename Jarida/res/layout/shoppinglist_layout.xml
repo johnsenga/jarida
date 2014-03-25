@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tabHost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/purple"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </TabWidget>
+
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp" >
+
+            <LinearLayout
+                android:id="@+id/tab1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="60dp" >
+
+                <android.gesture.GestureOverlayView
+                    android:id="@+id/gestureOverlayTab1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:duplicateParentState="false"
+                    android:gestureColor="#00000000"
+                    android:uncertainGestureColor="#00000000" >
+
+                    <ListView
+                        android:id="@+id/listViewList"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="top" >
+                    </ListView>
+                </android.gesture.GestureOverlayView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tab2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingTop="60dp" >
+                <android.gesture.GestureOverlayView
+                    android:id="@+id/gestureOverlayTab2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gestureColor="#00000000"
+                    android:uncertainGestureColor="#00000000" >
+
+                    <LinearLayout
+                        android:background="@color/white"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:orientation="vertical" >
+
+                        <view
+                            android:id="@+id/view1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            class="RelativeLayout" >
+
+                            
+						    <TextView
+						        android:id="@+id/textView1"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:text="@string/noofitems"
+						        android:textAppearance="?android:attr/textAppearanceLarge" />
+						
+						    <TextView
+						        android:id="@+id/textView2"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_alignParentLeft="true"
+						        android:layout_below="@+id/textView3"
+						        android:layout_marginTop="24dp"
+						        android:text="@string/ordertotal"
+						        android:textAppearance="?android:attr/textAppearanceLarge" />
+						
+						    <TextView
+						        android:id="@+id/textView3"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_alignParentTop="true"
+						        android:layout_marginLeft="32dp"
+						        android:layout_toRightOf="@+id/textView1"
+						        android:text="4"
+						        android:textAppearance="?android:attr/textAppearanceLarge" />
+						
+						    <TextView
+						        android:id="@+id/textView4"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_alignBottom="@+id/textView2"
+						        android:layout_alignLeft="@+id/textView3"
+						        android:text="$ 3.00"
+						        android:textAppearance="?android:attr/textAppearanceLarge" />					                            
+                        </view>
+						
+						<RelativeLayout
+						    android:layout_width="match_parent"
+						    android:layout_height="match_parent">
+						
+						    <RadioGroup
+						        android:id="@+id/radioGroup1"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_alignParentLeft="true"
+						        android:layout_alignParentTop="true"
+						        android:layout_marginLeft="76dp"
+						        android:layout_marginTop="45dp" >
+						
+						        <RadioButton
+						            android:id="@+id/radio0"
+						            android:layout_width="wrap_content"
+						            android:layout_height="wrap_content"
+						            android:layout_marginBottom="80dp"
+						            android:checked="true" />
+						
+						        <RadioButton
+						            android:id="@+id/radio1"
+						            android:layout_width="wrap_content"
+						            android:layout_height="wrap_content"
+						            android:layout_marginBottom="0dp" />
+						    </RadioGroup>
+						
+						    <ImageView
+						        android:id="@+id/imageView1"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_alignParentTop="true"
+						        android:layout_marginLeft="22dp"
+						        android:layout_marginTop="31dp"
+						        android:layout_toRightOf="@+id/radioGroup1"
+						        android:src="@drawable/mpesa" />
+						
+						    <ImageView
+						        android:id="@+id/imageView2"
+						        android:layout_width="wrap_content"
+						        android:layout_height="wrap_content"
+						        android:layout_alignLeft="@+id/imageView1"
+						        android:layout_below="@+id/imageView1"
+						        android:layout_marginTop="22dp"
+						        android:src="@drawable/paypal" />
+						
+						</RelativeLayout>
+
+                        <RelativeLayout 
+                            android:layout_width="match_parent"
+						    android:layout_height="match_parent" >
+						    
+						    <Button
+					        android:id="@+id/buttonSave"
+					        android:layout_width="match_parent"
+					        android:layout_height="wrap_content"
+					        android:layout_below="@+id/buttonSave"
+					        android:layout_centerHorizontal="true"
+					        android:text="Checkout" />
+						
+						</RelativeLayout>
+                     
+                    </LinearLayout>
+                </android.gesture.GestureOverlayView>
+            </LinearLayout>
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</TabHost>

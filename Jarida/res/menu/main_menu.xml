@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <group
+        android:id="@+id/actionGroup"
+        android:enabled="true"
+        android:menuCategory="container"
+        android:visible="true" >
+        <item
+            android:id="@+id/clearlistItems"
+            android:menuCategory="secondary"
+            android:showAsAction="never"
+            android:title="@string/clearList"
+            android:icon="@android:drawable/ic_menu_delete">
+        </item>
+        <item
+            android:id="@+id/clearFinishedItems"
+            android:menuCategory="secondary"
+            android:showAsAction="never"
+            android:title="@string/clearEntries"
+            android:icon="@android:drawable/ic_menu_rotate">
+        </item>
+        <!--item
+            android:id="@+id/sendList"
+            android:menuCategory="secondary"
+            android:showAsAction="never"
+            android:title="@string/syncList"
+            android:icon="@android:drawable/ic_menu_upload">
+        </item-->
+        <item
+            android:id="@+id/exit"
+            android:menuCategory="secondary"
+            android:showAsAction="ifRoom"
+            android:title="@string/exit" 
+            android:icon="@android:drawable/ic_lock_power_off">
+        </item>
+    </group>
+
+</menu>
